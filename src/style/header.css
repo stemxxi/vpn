@@ -1,5 +1,5 @@
 .nav{
-    border: 0.5px solid #838383;
+    border-bottom: 0.5px solid #838383;
 }
 
 .nav-content{
@@ -20,6 +20,8 @@
     color: var(--Red);
     letter-spacing: 0;
 }
+
+
 
 .nav__content-list,
 .nav__content-logo{
@@ -115,4 +117,18 @@
 .header__next-appstore{
     padding-top: 74px;
     padding-bottom: 29px;
+}
+
+
+.nav-toggle::after{
+    display: none;
+    content: '\f0c9';
+    color: var(--Green);
+    font-family: 'Font Awesome';
+    font-size: 32px;
+    background: #FFFFFF;
+}
+
+.active{
+    display: block !important;
 }

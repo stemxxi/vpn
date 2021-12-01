@@ -51,6 +51,7 @@ input,
 select,
 textarea {
     font-family: inherit;
+    text-decoration: none;
 }
 
 a {

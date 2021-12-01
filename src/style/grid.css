@@ -20,8 +20,13 @@
         width: 100%;
         margin: 0 auto;
     }
-    .header__content-right{
-        flex-wrap: wrap;
+
+    .nav-content{
+        padding: 16px 12px 15px 10px;
+    }
+    .header__next-appstore {
+        padding-top: 25px;
+        padding-bottom: 0;
     }
 }
 @media (max-width: 992px) {
@@ -30,6 +35,10 @@
         width: 100%;
         margin: 0 auto;
     }
+    .header__content-next{
+        padding-left: 50px;
+    }
+  
 }
 @media (max-width: 768px) {
     .container{
@@ -37,10 +46,102 @@
         width: 100%;
         margin: 0 auto;
     }
+    .nav {
+        background: #FFFFFF;
+        position: fixed;
+        width: 100%;
+        top: 0;
+        z-index: 10000;
+    }
+
+    
+    .header__content-right{
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+    .header__content-next{
+        padding-left: 0;
+        padding-right: 0;
+    }
+    .nav__content-devide{
+        display: none;
+        position: absolute;
+        right: 0px;
+        top: 75px;
+        background: #FFFFFF;
+        width: 100%;
+        height: max-content;
+        border-bottom: 0.5px solid #838383;
+        padding-bottom: 15px;
+        animation: anim;
+        animation-duration: 0.2s;
+        /* animation-delay: 3s; */
+        z-index: -1;
+    }
+    @keyframes anim {
+        from {top:-54px;}
+        to {top:0;}
+    }
+
+    .nav__content-list{
+        flex-direction: column;
+    }
+    .nav-content {
+        padding: 16px 0px 15px 0px;
+        max-width: 992px !important;
+        width: 100%;
+        margin: 0 auto;
+        z-index: 100000;
+        background: #FFFFFF;
+    }
+    .nav-toggle::after{
+        display: block;
+    }
+    
+    .nav__content-link {
+        line-height: 30px;
+        font-size: 22px;
+        
+    }
+    .nav__content-link{
+        padding-left: 0px;
+    }
 }
 @media (max-width: 576px) {
     .container{
         max-width: 100%;
        
+    }
+    .nav-content{
+        padding: 16px 12px 15px 0px;
+    }
+    .nav__logo-title {
+        font-size: 13px;
+        padding-left: 8px;
+    }
+    .nav__content-link{
+        padding-left: 0px;
+    }
+}
+@media (max-width: 280px) {
+    .container{
+        max-width: 100%;
+       
+    }
+    .nav-content{
+        padding: 16px 34px 15px 0px;
+    }
+    .nav__content-link{
+        padding-left: 0px;
+    }
+    .nav__logo-title {
+        font-size: 13px;
+        padding-left: 8px;
+    }
+    .header__next-info {
+        padding: 0px 10px 0px 10px;
+    }
+    .header__next-img {
+        padding-top: 0px;
     }
 }
