@@ -57,8 +57,12 @@
     padding-left: 32px;
 
 }
+.header__prev-img{
+    width: 246px;
+}
 .header__next-img{
     padding-top: 116px;
+    width: 246px;
 }
 .header__content-right{
     display: flex;
@@ -113,10 +117,16 @@
 }
 .header__next-vpn{
     padding-top: 85px;
+    width: 146px;
+    
+}
+.header__next-playmarket{
+    width: 155px;
 }
 .header__next-appstore{
     padding-top: 74px;
     padding-bottom: 29px;
+    width: 140px;
 }
 
 
