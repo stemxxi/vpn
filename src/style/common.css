@@ -30,13 +30,19 @@
     --lightBlue: #5A5FFF;
 }
 
+html,
+      body {
+        position: relative;
+        height: 100%;
+      }
+
 button {
     cursor: pointer;
     border: none;
 }
 
 a {
-    text-decoration: none;
+    text-decoration: none !important;
 }
 li {
     text-decoration: none;

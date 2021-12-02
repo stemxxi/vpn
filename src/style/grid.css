@@ -106,6 +106,18 @@
     .nav__content-link{
         padding-left: 0px;
     }
+    .footer__content-left{
+        padding: 0px 20px 0px 10px;
+    }
+    .footer-title{
+        margin-top: 33px;
+    }
+    .footer__content-right {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+    }
 }
 @media (max-width: 576px) {
     .container{
@@ -141,9 +153,36 @@
         align-items: center;
         justify-content: center;
         flex-wrap: wrap;
-        /* padding-right: 41px; */
-        /* padding-left: 32px; */
+        padding-right: 0px;
+        padding-left: 0px;
     }
+    .main__work-title{
+        font-size: 23px;
+    }
+    .footer-title{
+        margin-top: 33px;
+    }
+    .footer-col{
+        padding-right: 51px;
+    }
+    .footer__logo-img{
+        margin-right: 20px;
+        margin-left: 20px;
+    }
+    .footer__content-right {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        padding-left: 80px;
+    }
+    .footer-content {
+        display: flex;
+        align-items: center;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
 }
 @media (max-width: 280px) {
     .container{
@@ -151,7 +190,7 @@
        
     }
     .nav-content{
-        padding: 16px 34px 15px 0px;
+        padding: 16px 35px 15px 0px;
     }
     .nav__content-link{
         padding-left: 0px;
@@ -168,7 +207,7 @@
     }
     .main__item-description{
         font-size: 14px;
-        width: 224px;
+        width: 190px;
     }
     .main__item-content {
         padding-left: 0px;
@@ -176,5 +215,26 @@
     .main__item-title {
         font-size: 19px;
         
+    }
+    .main__work-title{
+        font-size: 20px;
+    }
+    .header__content-prev {
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-wrap: wrap;
+        padding-right: 0px;
+        padding-left: 0px;
+    }
+    .footer__content-right {
+        display: grid;
+        grid-template-columns: repeat(2, 2fr);
+        /* display: flex; */
+        /* flex-wrap: wrap; */
+        padding-right: 0px;
+    }
+    .footer__copy{
+        font-size: 12px;
     }
 }

@@ -15,6 +15,7 @@
     color: #000000;
     font-family: var(--Poppins-SemiBold);
     padding-left: 16px;
+    margin-bottom: 0 !important;
 }
 .nav__logo-title>span{
     color: var(--Red);
@@ -36,6 +37,11 @@
     line-height: 24px;
     color: var(--DarkGray);
     font-family: var(--Poppins-Medium);
+    transition: 0.5s;
+}
+.nav__content-link:hover{
+    color: var(--Blue);
+    transition: 0.5s;
 }
 
 /* HEADER */
@@ -55,6 +61,7 @@
     flex-wrap: wrap;
     padding-right: 41px;
     padding-left: 32px;
+    padding-bottom: 111px;
 
 }
 .header__prev-img{

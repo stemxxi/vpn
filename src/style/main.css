@@ -90,3 +90,19 @@
     width: 100%;
     margin-bottom: 41px;
 }
+
+
+
+.main__vpn-app{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-bottom: 54px;
+    flex-wrap: wrap;
+}
+.appstore{
+    width: 140px;
+}
+.playmarket{
+    width: 155px;
+}
